@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <div class="hamburger-menu-icon">
+          <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        </div>
+        <div class="youtube-logo-icon">
+          <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+      </div>
+      <div class="middle-section">
+        <input class="searchbar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">Youtube apps</div>
+        </div>
+        
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <div class="current-user-icon">
+          <img class="current-user-picture" src="profile/shre.jpg">
+        </div>
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main class="video-grid">
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" class="video-title-link">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          </a>
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a href="https://www.youtube.com/c/mkbhd" class="video-title-link">
+              <img class="profile-pic" src="profile/channel-1.jpeg">
+            </a> 
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" class="video-title-link">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+            </a>
+            <a href="https://www.youtube.com/c/mkbhd" class="video-title-link">
+              <p class="video-author">
+                Marques Brownlee
+              </p>
+            </a>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=Oly6ayyckZI" class="video-title-link">
+            <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+          </a>
+          <div class="video-time">1:15</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a href="https://www.youtube.com/@TimHensonW6RST" class="video-title-link">
+              <img class="profile-pic" src="profile/tim.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=Oly6ayyckZI" class="video-title-link">
+              <p class="video-title">
+                BBL Drizzy
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@TimHensonW6RST" class="video-title-link">
+              <p class="video-author">
+                Tim Henson
+              </p>
+            </a>
+            <p class="video-stats">
+              1.5M views &#183; 5 days ago
+            </p>
+          </div>
+        </div>  
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=oxVLLGh2D9E" class="video-title-link">
+            <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+          </a>
+          <div class="video-time">18:27</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a href="https://www.youtube.com/@PewDiePieHighlights" class="video-title-link">
+              <img class="profile-pic" src="profile/channels4_profile.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=oxVLLGh2D9E" class="video-title-link">
+              <p class="video-title">
+                I PLAYED VALORANT FOR THE FIRST TIME
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@PewDiePieHighlights" class="video-title-link">
+              <p class="video-author">
+                PewDiePie Highlights
+              </p>
+            </a>
+            <p class="video-stats">
+              771K views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=094y1Z2wpJg" class="video-title-link">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+          </a>
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a href="https://www.youtube.com/c/veritasium" class="video-title-link">
+              <img class="profile-pic" src="profile/channel-4.jpeg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=094y1Z2wpJg" class="video-title-link">
+              <p class="video-title">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+            </a>
+            <a href="https://www.youtube.com/c/veritasium" class="video-title-link">
+              <p class="video-author">
+                Veritasium
+              </p>
+            </a>
+            <p class="video-stats">
+              18M views &#183; 4 months ago
+            </p>
+          </div>
+        </div>  
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=MezaRnLSGhM" class="video-title-link">
+            <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+          </a>
+          <div class="video-time">17:14</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a href="https://www.youtube.com/@styropyro" class="video-title-link">
+              <img class="profile-pic" src="profile/styro_profile.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=MezaRnLSGhM" class="video-title-link">
+              <p class="video-title">  
+                Extreme 2D Plasma Ball Experiments    
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@styropyro" class="video-title-link">
+              <p class="video-author">
+                styropyro
+              </p>
+            </a>
+            <p class="video-stats">
+              3.3M views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=rkI034qKG7o" class="video-title-link">
+            <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
+          </a>
+          <div class="video-time">3:55</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a href="https://www.youtube.com/@imcyborgbutthatsok" class="video-title-link">
+              <img class="profile-pic" src="profile/cyborg.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=rkI034qKG7o" class="video-title-link">
+              <p class="video-title"> 
+                Dreamgirl - Teenage Blue
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@imcyborgbutthatsok" class="video-title-link">
+              <p class="video-author">
+                i'm a cyborg but that's ok
+              </p>
+            </a>
+            <p class="video-stats">
+              9.9M views &#183; 3 years ago
+            </p>
+          </div>
+        </div>  
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=lNDgpDHlyRU" class="video-title-link">
+            <img class="thumbnail" src="thumbnails/neso.webp">
+          </a>
+          <div class="video-time">10:50</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a href="https://www.youtube.com/@nesoacademy" class="video-title-link">
+              <img class="profile-pic" src="profile/nesoacad.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=lNDgpDHlyRU" class="video-title-link">
+              <p class="video-title"> 
+                for Loop with Strings in Python
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@nesoacademy" class="video-title-link">
+              <p class="video-author">
+                Neso Academy
+              </p>
+            </a>
+            <p class="video-stats">
+              12K views &#183; 7 months ago
+            </p>
+          </div>
+        </div>  
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg" class="video-title-link">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+          </a>
+          <div class="video-time">19:54</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a href="https://www.youtube.com/@MrBeast" class="video-title-link">
+              <img class="profile-pic" src="profile/channel-6.jpeg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg" class="video-title-link">
+              <p class="video-title"> 
+                Anything You Can Fit In The Circle I’ll Pay For
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@MrBeast" class="video-title-link">
+              <p class="video-author">
+                MrBeast
+              </p>
+            </a>
+            <p class="video-stats">
+              292M views &#183; 4 years ago
+            </p>
+          </div>
+        </div>  
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=0XETsoyx-i8" class="video-title-link">
+            <img class="thumbnail" src="thumbnails/tanmay.webp">
+          </a>
+          <div class="video-time">15:21</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a href="https://www.youtube.com/@tanmaybhat" class="video-title-link">
+              <img class="profile-pic" src="profile/tanmayprog.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=0XETsoyx-i8" class="video-title-link">
+              <p class="video-title"> 
+                ANIMAL MEME REVIEW
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@tanmaybhat" class="video-title-link">
+              <p class="video-author">
+                Tanmay Bhat
+              </p>
+            </a>
+            <p class="video-stats">
+              4.4M views &#183; 5 months ago
+            </p>
+          </div>
+        </div>  
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=r7COWvxlN5g" class="video-title-link">
+            <img class="thumbnail" src="thumbnails/boss.webp">
+          </a>
+          <div class="video-time">17:10</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a href="https://www.youtube.com/@Mrwhosetheboss" class="video-title-link">
+              <img class="profile-pic" src="profile/bossprof.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=r7COWvxlN5g" class="video-title-link">
+              <p class="video-title"> 
+                Mac vs Windows - Who Wins in 2024?
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@Mrwhosetheboss" class="video-title-link">
+              <p class="video-author">
+                Mrwhosetheboss
+              </p>
+            </a>
+            <p class="video-stats">
+              6.7M views &#183; 9 months ago
+            </p>
+          </div>
+        </div>  
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=4sHlCovj-Ik" class="video-title-link">
+            <img class="thumbnail" src="thumbnails/slay.webp">
+          </a>
+          <div class="video-time">12:27</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a href="https://www.youtube.com/@SlayyPointOfficial" class="video-title-link">
+              <img class="profile-pic" src="profile/slay.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=4sHlCovj-Ik" class="video-title-link">
+              <p class="video-title"> 
+                Impossible Things Stolen by Indian Thieves
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@SlayyPointOfficial" class="video-title-link">
+              <p class="video-author">
+                Slayy Point
+              </p>
+            </a>
+            <p class="video-stats">
+              8M views &#183; 3 months ago
+            </p>
+          </div>
+        </div>  
+      </section>
+      <section class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=iNyUmbmQQZg" class="video-title-link">
+            <img class="thumbnail" src="thumbnails/ted.webp">
+          </a>
+          <div class="video-time">12:27</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <a href="https://www.youtube.com/@TEDEd" class="video-title-link">
+              <img class="profile-pic" src="profile/teded.jpg">
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=iNyUmbmQQZg" class="video-title-link">
+              <p class="video-title"> 
+                Is it normal to talk to yourself?
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@TEDEd" class="video-title-link">
+              <p class="video-author">
+                TED-Ed
+              </p>
+            </a>
+            <p class="video-stats">
+              5.2M views &#183; 11 months ago
+            </p>
+          </div>
+        </div>  
+      </section>
+    </main>
+  </body>
+</html>
