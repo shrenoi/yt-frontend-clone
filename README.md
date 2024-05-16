@@ -1,4 +1,8 @@
-# Youtube Clone (Frontend only)
-Prepared using HTML & CSS.
-Preview of the work [here.](https://drive.google.com/file/d/1yB5csZ8ajb4Wn76zbEcrGslO91epG9KD/view?usp=sharing)
+## Youtube Clone (Frontend only)
+
+Prepared using HTML5 & CSS.
+
+### Preview 
+
+https://github.com/rycerzes/yt-frontend-clone/assets/59965507/85949c9e-4a26-4530-8dcc-87ee5e6f3689
 
