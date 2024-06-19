@@ -4,5 +4,5 @@ Prepared using HTML5 & CSS.
 
 ### Preview 
 
-https://github.com/rycerzes/yt-frontend-clone/assets/59965507/85949c9e-4a26-4530-8dcc-87ee5e6f3689
+https://github.com/shrenoi/yt-frontend-clone/assets/146646992/33dcaa27-db7b-42d0-b683-3656a6b70345
 
